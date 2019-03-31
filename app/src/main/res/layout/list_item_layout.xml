@@ -25,6 +25,8 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
         android:text="Sample Contact Name"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
         app:layout_constraintStart_toEndOf="@+id/imgIcon"
         app:layout_constraintTop_toTopOf="@+id/imgIcon" />
 </android.support.constraint.ConstraintLayout>
