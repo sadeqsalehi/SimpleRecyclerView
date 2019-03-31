@@ -1,7 +1,7 @@
 package com.example.simplerecyclerview;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         RecyclerView contactList = findViewById(R.id.contactList);
         contactList.setLayoutManager(new LinearLayoutManager(this));
-        String[] contactNames = {"Sadeq Salehi", "Samir Abbas Fard", "Ali Dris", "Hani Faisali", "Nasser Sawaedi", "Afshin Shokrollahi",
-                "Abdul Jabbar Alizadeh", "Jasim Thameri", "Abdul Wahab Rubaihawi"};
+        String[] contactNames = {"Sadeq Salehi", "Samir Abbas Fard", "Ali Dris", "Hani Faisali", "Ali Sawaedi", "Afshin Shokrollahi",
+                "Muhammad Alizadeh", "Salim Thameri", "Kadim Rubaihawi"};
         contactList.setAdapter(new ContactAdapter(contactNames));
 
 
